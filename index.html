@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+                                 <!-- Page Header -->
+    <header class="page_header">
+        <nav id="menu">
+            <ul class="menu_list">
+                <li class="menu_list_item">
+                    <a href="index.html" class="menu_list_link">Home</a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="#about" class="menu_list_link">About</a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="#rooms" class="menu_list_link">Rooms</a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="#services" class="menu_list_link">Services</a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="#gallery" class="menu_list_link">Gallery</a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="#to_do" class="menu_list_link">To Do</a>
+                </li>
+                <li class="menu_list_item">
+                    <a href="#contact" class="menu_list_link">Contact</a>
+                </li>
+                <li class="menu_list_item">
+                    <button class="menu_list_button">Book A Room</button>
+                </li>
+            </ul>
+        </nav>
+            <div class="toggler">
+                <button class="toggler_button">Menu</button>
+            </div>
+    </header>
+                                <!-- Hotel book section -->
+    <section class="book_section">
+        <header class="book_header">
+            <h1 class="book_tittle">Anton & Lily</h1>
+            <p class="book_overview">Bed & Breakfast</p>
+        </header>
+        <div class="book_img_container"></div>
+        <form action="#" method="POST" target="_self" class="book_form">
+            <ul class="book_form_list">
+                <li class="book_form_list_item">
+                    <label for="date_check_in" class="book_form_label">Check In</label>
+                    <input type="date" class="book_input_date" id="date_check_in" required>
+                </li>
+                <li class="book_form_list_item">
+                    <label for="date_check_out" class="book_form_label">Check Out</label>
+                    <input type="date" class="book_input_date" id="date_check_out" required>
+                </li>
+                <li class="book_form_list_item">
+                    <label for="adult_number" class="book_form_label">Adults</label>
+                    <input type="number" min="0" value="1" class="book_input_number" id="adult_number">
+                </li>
+                <li class="book_form_list_item">
+                    <label for="kid_number" class="book_form_label">Kids</label>
+                    <input type="number" min="0" value="0" class="book_input_number" id="kid_number">
+                </li>
+                <li class="book_form_list_item">
+                    <input type="submit" class="book_form_submit">
+                </li>
+            </ul>
+        </form>
+    </section>
+                                <!-- About Section -->
+    <section class="about" id="about">
+        <h1 class="about_tittle">About</h1>
+            <p class="about_overview">
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+            </p>
+        <div class="book_room" id="rooms">
+            <header class="book_room_header">    
+                <h1 class="book_room_tittle">Our Room</h1>
+                <p class="book_room_overview">
+                    I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                </p>
+                <button class="book_room_button">Book A Room</button>
+            </header>
+        </div>
+    </section>
+                                <!-- Services  -->
+    <section class="services" id="services">
+        <h1 class="services_tittle">Our Services</h1>
+        <ul class="services_list">
+            <li class="services_list_item">
+                <h2 class="services_list_item_tittle"><i class="fas fa-hamburger"></i>Breakfast</h2>
+                <p class="services_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+                
+            </li>
+            <li class="services_list_item">
+                <h2 class="services_list_item_tittle"><i class="fas fa-seedling"></i>Garden</h2>
+                <p class="services_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="services_list_item">
+                <h2 class="services_list_item_tittle"><i class="fas fa-swimming-pool"></i>Pool</h2>
+                <p class="services_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="services_list_item">
+                <h2 class="services_list_item_tittle"><i class="fas fa-wifi"></i>Free Wifi</h2>
+                <p class="services_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="services_list_item">
+                <h2 class="services_list_item_tittle"><i class="fas fa-soap"></i>Daily Housekeeping</h2>
+                <p class="services_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="services_list_item">
+                <h2 class="services_list_item_tittle"><i class="fas fa-utensils"></i>In-Room Dining Service</h2>
+                <p class="services_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+        </ul>
+    </section>
+                                <!-- Slider -->
+    <div class="slider_wrapper" id="gallery">
+        <ul class="slider_list">
+            <li class="slider_list_item">
+                <div class="swiper-container">  
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: url(assets/images/firstslider1.jpg); background-size: cover;"></div>
+                        <div class="swiper-slide" style="background: url(assets/images/firstslider2.jpg);"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="slider_list_item">
+                <div class="swiper-container">  
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: url(assets/images/secondslider1.jpg); background-position: center; background-size: cover;background-repeat: no-repeat;"></div>
+                        <div class="swiper-slide" style="background: url(assets/images/secondslider2.jpg); background-position: center; background-size: cover;background-repeat: no-repeat;"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="slider_list_item">
+                <div class="swiper-container">  
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: url(assets/images/thirdslider1.jpg); background-position: top; background-size: cover;background-repeat: no-repeat;"></div>
+                        <div class="swiper-slide" style="background: url(assets/images/thirdslider2.jpg); background-position: center; background-size: cover;background-repeat: no-repeat;"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+                                <!-- To do -->
+    <section class="to_do_section" id="to_do">
+        <h1 class="to_do_tittle">Things to do</h1>
+        <ul class="to_do_list">
+            <li class="to_do_list_item">
+                <h2 class="to_do_list_item_tittle">Wineries Tour</h2>
+                <p class="to_do_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+                
+            </li>
+            <li class="to_do_list_item">
+                <h2 class="to_do_list_item_tittle">Cultural Sites</h2>
+                <p class="to_do_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="to_do_list_item">
+                <h2 class="to_do_list_item_tittle">Market Tour</h2>
+                <p class="to_do_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="to_do_list_item">
+                <h2 class="to_do_list_item_tittle">Leisure Activities</h2>
+                <p class="to_do_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="to_do_list_item">
+                <h2 class="to_do_list_item_tittle">Birds Safari</h2>
+                <p class="to_do_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+            <li class="to_do_list_item">
+                <h2 class="to_do_list_item_tittle">Horse Riding </h2>
+                <p class="to_do_list_item_overview">I'm a paragraph. Click here to add your own text and edit me.</p>
+            </li>
+        </ul>
+        <div class="review_container">
+            <header class="review_header">
+                <h2 class="review_tittle">Guest Review <i class="fas fa-quote-left"></i></h2>
+                <div class="swiper-container review_swiper_container">  
+                    <div class="swiper-wrapper review_swiper_wrapper">
+                        <div class="swiper-slide review_slide"><p class="review_overview">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p></div>
+                        <div class="swiper-slide review_slide"><p class="review_overview"> “I'm a paragraph. Click here to add your own text and edit me.”</p></div>
+                        <div class="swiper-slide review_slide"><p class="review_overview">“I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.”</p></div>
+                    </div>
+                    <div class="swiper-pagination review_slide_pagination"></div>
+                </div>
+            </header>
+        </div>
+    </section>
+                                <!-- Contact -->
+    <div class="contact_bg_color" id="contact">                       
+        <section class="contact">
+            <h1 class="contact_tittle">Contact Us</h1>
+            <ul class="contact_list">    
+                <li class="contact_list_item">
+                    <p class="contact_email">
+                        info@mysite.com
+                    </p>
+                </li>
+                <li class="contact_list_item">
+                    <address class="address">500 Terry Francois Street, San Francisco, CA 94158</address>
+                </li>
+                <li class="contact_list_item">
+                    <p class="contact_mobile">
+                        Tel: 123-456-7890 
+                    </p>
+                </li>
+            </ul>
+            <form action="#" method="GET" target="_self" class="contact_form">
+                <div class="contact_form_col_md_2">
+                    <input type="text" class="username" placeholder="Username" required>
+                    <input type="email" class="email" placeholder="Email" required>
+                </div>
+                <input type="text" class="subject" placeholder="Subject" required>
+                <textarea name="" id="" cols="30" rows="10" class="contact_form_textarea" placeholder="Write your message here..." required></textarea>
+                <button class="contact_form_button">Send</button>
+            </form>
+        </section>
+    </div>
+                                <!-- Google map -->
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="580" id="gmap_canvas" src="https://maps.google.com/maps?q=Georgia&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:580px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:580px;width:100%;margin:0px;}</style></div>
+                                <!-- Footer -->
+    <footer class="footer">
+        <p class="copyright"> &#169; All rights reserved</p>
+    </footer>
+                            <!-- Script links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="assets/js/script.js"> </script>
+</body>
+</html>
